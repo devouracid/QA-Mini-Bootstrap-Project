@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Cinemas - Show Times</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container-xl ">
+        <header>
+            <nav class="navbar">
+                <img class="img-fluid img-logo" src="./resources/movie-logo.jpeg" alt="logo">
+                <div class="navbar">
+                    <a class="nav-link active text-dark" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link text-dark" href="./showtimes.html">Show Times</a>
+                    <a class="nav-link text-dark" href="./signup.html">Sign Up</a>
+                </div>
+                <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+            </nav>
+        </header>
+        <div class="header pb-4">
+            <img class="img-fluid cal" src="./resources/calschedule.jpeg" alt="logo">
+        </div>
+        
+        <h3 class="h3">Theater Hours</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                  <th scope="col">Days</th>
+                  <th scope="col">Hours</th>
+                </tr>
+              </thead>
+            <tbody>
+              <tr>
+                <td>Monday-Thursday</td>
+                <td>16:30-21:00</td>
+              </tr>
+              <tr>
+                <td>Friday-Saturday</td>
+                <td>16:30-22:00</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>16:00-21:30</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 class="h3">Whats Playing</h3>
+
+          <table class="table table-hover">
+            <thead>
+                <tr>
+                  <th scope="col">Movie</th>
+                  <th scope="col">Time</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+            <tbody>
+              <tr>
+                <td>Mortal Kombat</td>
+                <td>17:30, 19:45</td>
+                <td class="w-25"><img src="./resources/mortal.jpeg" alt="Mortal Kombat"></td>
+              </tr>
+              <tr>
+                <td>Black Widow</td>
+                <td>18:30, 21:00</td>
+                <td><img src="./resources/blackWidow.jpeg" alt="Black Widow"></td>
+              </tr>
+              <tr>
+                <td>Fighter</td>
+                <td>17:30</td>
+                <td><img src="./resources/fighter.jpeg" alt="Fighter"></td>
+              </tr>
+            </tbody>
+          </table>
+
+        <footer class="alert alert-secondary ps-2">
+            <div class="row align-items-center">
+                <div class="col "> 
+                    <p class="p">Created By David & Jacob &copy;</p>
+                </div>
+                <div class="col">
+                    <div class="navbar">
+                        <a class="nav-link active text-dark" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link text-dark" href="./showtimes.html">Show Times</a>
+                        <a class="nav-link text-dark" href="./signup.html">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
